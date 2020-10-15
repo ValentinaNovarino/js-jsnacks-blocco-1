@@ -12,7 +12,7 @@ for (var i = 0; i < 5; i++) {
         // stampo tutti i numeri inseriti dall'utente
         console.log('il ' + (i + 1) + '°'  + ' numero inserito è: ' + number);
         // ridefinisco la variabile addition come somma + ogni numero inserito dall'utente
-        var addition = addition + number;
+        addition = addition + number;
     } else {
         console.log('non hai inserito dei numeri')
     }
